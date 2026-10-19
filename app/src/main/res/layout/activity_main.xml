@@ -45,7 +45,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintTop_toBottomOf="@+id/edtNumber2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintStart_toEndOf="parent">...</RadioGroup>
+        app:layout_constraintEnd_toEndOf="parent">...</RadioGroup>
     <LinearLayout
         android:id="@+id/layoutButtons"
         android:layout_width="0dp"
@@ -58,15 +58,15 @@
         <Button
             android:id="@+id/btnReset"
             android:layout_width="0dp"
-            android:layout_height="1pt"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/btn_reset"/>
         <Button
             android:id="@+id/btnCalculator"
             android:layout_width="0dp"
-            android:layout_height="2pt"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:text="@string/btn_calculator"/>
     </LinearLayout>
-    <androidx.cardview.widget.CardView
-        android:id=""
-    </androidx.cardview.widget.CardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
