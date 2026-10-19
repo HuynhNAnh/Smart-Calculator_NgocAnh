@@ -55,10 +55,12 @@
         <Button
             android:id="@+id/btnReset"
             android:layout_width="0dp"
-            android:layout_height="1dp"
+            android:layout_height="1pt"
             android:text="@string/btn_reset"/>
         <Button
-            android:layout_width=""
-            android:layout_height=""
-
+            android:id="@+id/btnCalculator"
+            android:layout_width="0dp"
+            android:layout_height="2pt"
+            android:text="@string/btn_calculator"/>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
