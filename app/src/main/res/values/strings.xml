@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Smart Calculator_NgocAnh</string>
+    <string name="title_calculator">CÔNG CỤ TÍNH TOÁN UTE</string>
+    <string name="hint_number_1">Nhập số thứ nhất (a)</string>
+    <string name="hint_number_2">Nhập số thứ hai (b)</string>
+    <string name="op_add">Cộng (+)</string>
+    <string name="op_sub">Trừ (-)</string>
+    <string name="op_mul">Nhân (x)</string>
+    <string name="op_div">Chia (÷)</string>
+    <string name="btn_calculator">Tính toán ngay</string>
+    <string name="btn_reset">Xóa trắng</string>
+    <string name="result_header">KẾT QUẢ TÍNH TOÁN</string>
+    <string name="err_empty_input">Vui lòng nhập đầy đủ hai số!</string>
+    <string name="err_div_zero">Lỗi: Không thể chia cho 0!</string>
+
 </resources>
