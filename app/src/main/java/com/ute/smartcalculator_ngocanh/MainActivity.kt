@@ -20,5 +20,13 @@ class MainActivity : AppCompatActivity() {
             resetFields()
         }
         }
-        private fun
+    private fun calculateResult(){
+        val num1 = binding.edtNumber1.text.toString().toDoubleOrNull()
+        val num2 = binding.edtNumber1.text.toString().toDoubleOrNull()
+        if(num1==num2){
+            Toast.makeText(this, getString(R.string.err_empty_input), Toast.LENGTH_SHORT).show()
+            return
+        }
+        
+    }
     }
