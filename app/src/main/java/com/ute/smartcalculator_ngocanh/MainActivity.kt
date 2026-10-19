@@ -27,6 +27,6 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, getString(R.string.err_empty_input), Toast.LENGTH_SHORT).show()
             return
         }
-        
+
     }
     }
